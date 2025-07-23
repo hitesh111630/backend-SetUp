@@ -1,0 +1,31 @@
+{
+  "name": "server01",
+  "version": "1.0.0",
+  "description": "frist try",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "backend",
+    "start": "node src/index.js",
+    "server": "nodemon src/index.js"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "hitesh patil",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.4",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
